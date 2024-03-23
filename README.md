@@ -1,4 +1,4 @@
-markdown_content = """
+
 # PDF Query Tool Project
 
 ## Introduction
@@ -73,5 +73,4 @@ With both the frontend and backend servers running, you can use the application 
 5. The query result will be displayed on the page.
 
 This tool is designed to provide an efficient way to extract information from PDF documents by querying them directly. It is particularly useful for research, data analysis, and anyone who needs to quickly retrieve information from large PDF files.
-"""
 
