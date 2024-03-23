@@ -41,7 +41,7 @@ def ask_pdf():
     
 
     docsearch = PineconeVectorStore.from_documents(texts, embeddings, index_name=index_name)
-    query = request.json.get('query','')
+    query = request.form.get('query','')
     docs = docsearch.similarity_search(query)
     llm = ChatOpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
     chain = load_qa_chain(llm, chain_type="stuff")
