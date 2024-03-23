@@ -16,7 +16,7 @@ Before you begin, ensure you have the following installed on your system:
 - Flask
 - React
 - Axios for making HTTP requests from the frontend
-- The Whisper model from OpenAI (for backend processing)
+- The OpenAI model from LangChain (for backend processing)
 - dotenv for environment variable management
 - Flask-CORS to handle cross-origin requests
 
@@ -42,7 +42,7 @@ To set up and run the backend:
 4. Start the Flask server:
 
     ```bash
-    flask run
+    flask run # Other option is python3 app.py
     ```
 
 ### Frontend Setup
