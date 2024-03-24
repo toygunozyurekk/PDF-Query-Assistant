@@ -1,5 +1,4 @@
 from flask import Flask , request , jsonify
-from openai import OpenAI 
 import os 
 from dotenv import load_dotenv
 from flask_cors import CORS
@@ -15,7 +14,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
 PINECONE_ENV_KEY = os.getenv('PINECONE_ENV_KEY')
-client = OpenAI(api_key=OPENAI_API_KEY)
+
 
 
 app = Flask(__name__)
