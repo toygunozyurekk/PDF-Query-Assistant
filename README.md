@@ -6,6 +6,7 @@
 The PDF Query Tool is an advanced application designed to facilitate the querying of PDF documents. It utilizes a Flask backend to process PDF files and extract information based on user queries, leveraging the capabilities of OpenAI's models and Pinecone's vector search. The React frontend provides a user-friendly interface for uploading PDF documents and displaying the query results. This documentation outlines everything needed to set up, run, and use the tool.
 
 ## Installation
+ 
 
 ### Prerequisites
 
