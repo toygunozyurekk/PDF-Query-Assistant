@@ -18,6 +18,7 @@ PINECONE_ENV_KEY = os.getenv('PINECONE_ENV_KEY')
 
 
 app = Flask(__name__)
+
 CORS(app)
 
 @app.route('/ask_pdf', methods=['POST'])
